@@ -172,7 +172,7 @@
             REAL(KIND=kgen_dp), INTENT(INOUT) :: total_time
             REAL(KIND=kgen_dp) :: elapsed_time
             INTEGER*8 :: kgen_intvar, start_clock, stop_clock, rate_clock
-            INTEGER, PARAMETER :: maxiter=10000
+            INTEGER, PARAMETER :: maxiter=100000
             TYPE(check_t):: check_status
             REAL(KIND=kgen_dp) :: tolerance
 ! Physics state variables                 [vary]
